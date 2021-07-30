@@ -1,0 +1,94 @@
+* {
+  font-family: "Playfair Display", serif;
+  margin: 0;
+}
+#header {
+  background-color: rgb(0, 128, 128);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  height: 5rem;
+}
+#logo {
+  font-size: 200%;
+  text-shadow: 2px 1px black;
+}
+ul li h1 {
+  display: inline;
+  text-align: left;
+  padding-right: 10rem;
+}
+nav {
+  width: 120rem;
+  justify-content: flex-end;
+}
+ul li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 5%;
+}
+a {
+  font-size: 150%;
+  color: white;
+  text-decoration: none;
+}
+#banner {
+  background-image: url("../images/bannerbackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 p {
+  font-size: 120%;
+  color: white;
+  word-wrap: wrap;
+  width: fit-content;
+  text-align: center;
+}
+
+#footer {
+  background-color: chocolate;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#digitalcontact a img {
+  width: 30px;
+  height: auto;
+  margin-right: 2rem;
+}
+#digitalcontact h6 {
+  color: black;
+  font-size: 20px;
+}
+tr th {
+  font-size: 2rem;
+  width: fit-content;
+  padding-right: 100px;
+  text-align: right;
+}
+progress {
+  background-color: red;
+  width: 500px;
+}
+
+#skills {
+    background-color: teal;
+
+  color: white;
+}
+#badge h1
+{
+    text-align: center;
+}
+#badge img {
+  height: 200px;
+  margin-left: 1rem;
+  margin-right: 10rem;
+}
