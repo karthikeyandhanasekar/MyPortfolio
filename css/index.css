@@ -36,10 +36,11 @@ nav {
 ul li {
   list-style-type: none;
   display: inline;
-  margin-right: 9%;
+  margin-right: 7%;
 }
 ul li  :hover {
   font-size: 2rem;
+  color: brown;
 }
 a {
   font-size: 150%;
